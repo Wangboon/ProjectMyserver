@@ -21,7 +21,7 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     }
     8;
     //test2
-    if (Utils_1.Utils.add(2, 2) === 4) {
+    if (Utils_1.Utils.add(2, 3) === 5) {
         console.log(0);
     }
     else {

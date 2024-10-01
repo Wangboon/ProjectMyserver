@@ -11,7 +11,7 @@ const unit_test = async () => {
     }
     8
     //test2
-    if (Utils.add(2, 2) === 4) {
+    if (Utils.add(2, 3) === 5) {
         console.log(0)
     } else {
         console.log('add test2')
@@ -39,6 +39,7 @@ const unit_test = async () => {
     catch (error) {
         console.log("addUser" + error);
     }
+
 
 }
 
