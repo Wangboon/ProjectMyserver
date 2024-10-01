@@ -40,8 +40,6 @@ const unit_test = async () => {
         console.log("addUser" + error);
     }
 
-
-
 }
 
 unit_test();
