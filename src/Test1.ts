@@ -1,9 +1,9 @@
 import { Utils } from "./Utils";
-import axios from "axios";
+
 
 const unit_test = async () => {
     //test1
-    if (Utils.factorial(4) === 24) {
+    if (Utils.factorial(7) === 5040) {
         console.log(0);
     } else {
         console.error('factorial test1 failed');
