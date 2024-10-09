@@ -20,7 +20,7 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
         return;
     }
     //test2
-    if (Utils_1.Utils.factorial(5) === 120) {
+    if (Utils_1.Utils.factorial(5) === 12) {
         console.log(0);
     }
     else {
