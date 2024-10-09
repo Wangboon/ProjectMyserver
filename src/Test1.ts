@@ -18,27 +18,6 @@ const unit_test = async () => {
         return;
     }
 
-    //test addUser
-    const data: any = {
-        "name": "pop",
-        "username": "iampop"
-    }
-
-    try {
-        const response: any = await Utils.addUser(data);
-        const correct_result: any = { "name": "pop", "username": "iampop" }
-
-        const keys: string[] = Object.keys(correct_result);
-        for (const k of keys) {
-            if (correct_result[k] !== response[k]) {
-                console.log("addUser " + k)
-                return
-            }
-        }
-    }
-    catch (error) {
-        console.log("addUser" + error);
-    }
 
 
 }

@@ -6,12 +6,9 @@ function add(a:number,b:number)
     return a + b;
 }
 
-async function addUser(data:any){
-    const response:any = await axios.post('https://jsonplaceholder.typicode.com/users',data);
-    return response.data
-}
 
-export const Utils = { addUser, add }
+
+export const Utils = { add }
 
 
 

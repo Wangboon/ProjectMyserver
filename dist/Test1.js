@@ -28,24 +28,5 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
         console.log('add test2');
         return;
     }
-    //test addUser
-    const data = {
-        "name": "pop",
-        "username": "iampop"
-    };
-    try {
-        const response = yield Utils_1.Utils.addUser(data);
-        const correct_result = { "name": "pop", "username": "iampop" };
-        const keys = Object.keys(correct_result);
-        for (const k of keys) {
-            if (correct_result[k] !== response[k]) {
-                console.log("addUser " + k);
-                return;
-            }
-        }
-    }
-    catch (error) {
-        console.log("addUser" + error);
-    }
 });
 unit_test();
