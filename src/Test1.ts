@@ -3,7 +3,7 @@ import { Utils } from "./Utils";
 
 const unit_test = async () => {
     //test1
-    if (Utils.factorial(7) === 5040) {
+    if (Utils.factorial(2) === 5040) {
         console.log(0);
     } else {
         console.error('factorial test1 failed');
