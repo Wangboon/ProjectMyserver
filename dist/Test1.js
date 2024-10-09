@@ -12,20 +12,19 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Utils_1 = require("./Utils");
 const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     //test1
-    if (Utils_1.Utils.add(1, 2) === 3) {
+    if (Utils_1.Utils.factorial(0) === 1) {
         console.log(0);
     }
     else {
-        console.log('add test1');
+        console.log('factorial test1');
         return;
     }
-    8;
     //test2
-    if (Utils_1.Utils.add(2, 3) === 5) {
+    if (Utils_1.Utils.factorial(5) === 120) {
         console.log(0);
     }
     else {
-        console.log('add test2');
+        console.log('factorial test2');
         return;
     }
 });
