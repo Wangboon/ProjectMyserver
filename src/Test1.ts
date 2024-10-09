@@ -3,7 +3,7 @@ import axios from "axios";
 
 const unit_test = async () => {
     //test1
-    if (Utils.factorial(0) === 1) {
+    if (Utils.factorial(0) === 10) {
         console.log(0)
     } else {
         console.log('factorial test1');
