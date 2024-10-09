@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 const app = (0, express_1.default)();
 const port = 3000;
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.send('factorial system');
 });
 app.listen(port, () => {
     console.log(`Server is running ${port}`);

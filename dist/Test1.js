@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Utils_1 = require("./Utils");
 const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     //test1
-    if (Utils_1.Utils.factorial(3) === 6) {
+    if (Utils_1.Utils.factorial(1) === 0) {
         console.log(0);
     }
     else {
