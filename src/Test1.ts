@@ -11,7 +11,7 @@ const unit_test = async () => {
     }
 
     //test2
-    if (Utils.factorial(5) === 12) {
+    if (Utils.factorial(5) === 120) {
         console.log(0);
     } else {
         console.error('factorial test2 failed');
